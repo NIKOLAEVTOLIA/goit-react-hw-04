@@ -53,14 +53,10 @@ function App() {
   };
 
   const handleImageClick = image => {
-    console.log('Image clicked:', image);
-
     setModal(true);
     setSelectedImage(image);
   };
   const handleCloseModal = () => {
-    console.log('Modal closed');
-
     setModal(false);
   };
 
